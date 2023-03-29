@@ -18,7 +18,7 @@ Install the required packages using pip install -r requirements.txt
 Start the server using uvicorn main:app --reload
 
 Usage
-To use the API, make a GET request to the /banks/{branch} endpoint, where {branch} is the branch of the bank you want to obtain details for. For example, to obtain details of a bank with the branch code RTGS-HO, you would make a GET request to http://127.0.0.1:8000/bank-list/RTGS-HO.
+To use the API, make a GET request to the /bank-list/{branch} endpoint, where {branch} is the branch of the bank you want to obtain details for. For example, to obtain details of a bank with the branch code RTGS-HO, you would make a GET request to http://127.0.0.1:8000/bank-list/RTGS-HO.
 
 
 Documentation
